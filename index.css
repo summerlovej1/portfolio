@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'KHNPHD';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/KHNPHD.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+	font-family: Noto-sans;
+}
+body {
+    margin: 5%;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background-color: #b0bec5;
+}
+
+a {
+    color: #b0bec5;
+}
+
+hr {
+    border-color: #bdbdbd;
+}
+.card{
+    margin-bottom: 30px !important;
+    padding:0;
+}
+p{
+	color:#616161;
+}
+.width{
+    width:100%;
+}
+@media screen and (min-width: 992px) {
+    .width{
+    	width:90%;
+    	margin-left:5%;
+    }
+}
+
